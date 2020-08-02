@@ -75,6 +75,12 @@ main {
   transition: 0.3s;
 }
 
+.btns .active,
+.btns .active:hover {
+  background-color: white;
+  color: black;
+}
+
 .btns button:hover {
   background-color: rgba(255, 255, 255, 0.6);
   color: black;

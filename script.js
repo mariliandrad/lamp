@@ -9,6 +9,8 @@ btnOn.addEventListener("click", function () {
   if (sky.classList.contains("off")) {
     sky.classList.remove("off");
     sky.classList.add("on");
+    btnOn.classList.add("active");
+    btnOff.classList.remove("active");
   }
 });
 
@@ -18,5 +20,7 @@ btnOff.addEventListener("click", function () {
   if (sky.classList.contains("on")) {
     sky.classList.remove("on");
     sky.classList.add("off");
+    btnOff.classList.add("active");
+    btnOn.classList.remove("active");
   }
 });

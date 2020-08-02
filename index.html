@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lamp</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lamp </title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
+  <body>
     <header class="sky-light off" id="sky">
+      <!--Título Off-->
+      <h1 class="text-off">Click to see</h1>
 
-        <!--Título Off-->
-        <h1 class="text-off">Click to see</h1>
-
-        <!--Título On-->
-        <h1 class="text-on">Be like the lamp</h1>
+      <!--Título On-->
+      <h1 class="text-on">Be like the lamp</h1>
     </header>
 
     <main>
-        <img class="lamp" id="lamp" src="./img/off.svg" alt="Lâmpada Desligada">
-        <div class="btns">
-            <button id="btnOn">On</button>
-            <button id="btnOff">Off</button>
-        </div>
+      <img class="lamp" id="lamp" src="./img/off.svg" alt="Lâmpada Desligada" />
+      <div class="btns">
+        <button id="btnOn">On</button>
+        <button id="btnOff">Off</button>
+      </div>
     </main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
